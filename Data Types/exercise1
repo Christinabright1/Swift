@@ -1,0 +1,3 @@
+Faça um Programa que mostre a mensagem ”Ol´a mundo”na Ecrã. 
+var str = "Olá mundo"
+print(str)
