@@ -1,0 +1,13 @@
+crie 2 variáveis inteiras
+• some essas duas variáveis
+• mostre o resultado
+
+print("Enter the first number:")
+var num1 = readLine()!
+var numInt1 = Int(num1)!
+
+print("Enter the second number:")
+var num2 = readLine()!
+var numInt2 = Int(num2)!
+let sum =  numInt1 + numInt2
+print("The sum is \(sum)")
