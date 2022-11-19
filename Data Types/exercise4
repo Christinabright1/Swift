@@ -1,0 +1,10 @@
+
+/*var a = “ola mundo ”
+•  var b = 42
+• concatene estas duas variáveis
+•  output:  (“ola mundo 42”)
+
+*/
+var a = "ola mundo"
+var b = 42
+print("\(a) \(b)")
