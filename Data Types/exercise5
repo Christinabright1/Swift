@@ -1,0 +1,17 @@
+/*
+crie uma variável
+•  nome do tipo String
+•  idade do tipo Int
+•  atribua “Zeca” a variável nome
+•  atribua “40” a variável idade
+• mostre o output (“o Zeca tem 40 anos”)
+
+*/
+print("Digite um string: ")
+var  newStr = readLine()!
+
+
+print("Digite um numero: ")
+var numero = readLine()!
+var num = Int(numero)!
+print("o \(newStr) tem \(num) anos")
