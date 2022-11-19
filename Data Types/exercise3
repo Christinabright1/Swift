@@ -1,0 +1,21 @@
+
+
+/*
+  crie uma variável inteira
+• veriﬁque se essa variável e maior que 10
+•  se for subtraia 10 a essa variável
+•  se não some 10 a essa variável
+*/
+print("Digite um numero: ")
+var num = readLine()!
+var numInt = Int(num)!
+var diff:Int
+if(numInt > 10 ){
+  diff = numInt - 10
+  print(diff)
+}else if(numInt < 10){
+  diff = numInt + 10
+  print(diff)
+}else{
+  print(numInt)
+}
