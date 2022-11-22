@@ -1,0 +1,7 @@
+/*crie um array com N valores (N > 5)
+•  mostre o 3º e 4º elemento do array*/
+
+
+var arrayofNumber = [7,9,2,1,13,-1];
+print(arrayofNumber[3])
+print(arrayofNumber[4])
