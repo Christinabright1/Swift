@@ -1,0 +1,11 @@
+/*
+Faça um Programa que converta metros em centímetros. O valor a converter deve ser pedido
+
+*/
+
+print("Digite um numero: ")
+
+var num = readLine()!
+var numInt = Int(num)!
+let conversão = numInt * 100
+print (conversão)
