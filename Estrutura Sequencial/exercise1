@@ -1,0 +1,6 @@
+/*
+ Faça um Programa que peça um número e então mostre a mensagem O núumero inserido foi [numero].
+*/
+print("Digite um numero: ")
+var num = readLine()!
+print("O numero inserido foi \(num)")
