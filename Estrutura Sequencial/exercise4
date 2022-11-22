@@ -1,0 +1,20 @@
+/*
+Faça um Programa que peça as 4 notas e mostre a media.
+*/
+print("Digite um numero")
+var num1 = readLine()!
+var num1Int = Int(num1)!
+
+print("Digite um numero")
+var num2 = readLine()!
+var num2Int = Int(num2)!
+
+print("Digite um numero")
+var num3 = readLine()!
+var num3Int = Int(num3)!
+
+print("Digite um numero")
+var num4 = readLine()!
+var num4Int = Int(num4)!
+let media = (num1Int + num2Int + num3Int + num4Int)/4
+print(media)
