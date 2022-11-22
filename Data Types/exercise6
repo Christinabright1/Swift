@@ -1,0 +1,11 @@
+•  crie uma função que receba dois inteiros 
+•  some esses dois inteiros e devolva o resultado  
+•  faça o print do resultado
+
+
+func sum(num1: Int, num2: Int)-> Int {
+  let sumInt = num1 + num2;
+  return sumInt;
+}
+
+print(sum(num1: 2,num2: 6));
