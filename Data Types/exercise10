@@ -1,0 +1,9 @@
+/*
+crie uma função que receba uma string e faça o 
+print do seu valor
+*/
+
+func stringA(name: String){
+  print("Hello", name )
+}
+stringA(name: "Rita")
