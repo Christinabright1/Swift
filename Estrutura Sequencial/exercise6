@@ -1,0 +1,11 @@
+/*
+Faça um Programa que peça o raio de um cırculo. Calcule e mostre a area do circulo.
+*/
+
+print("Digite o raio: ")
+var raio = readLine()!
+var raioFloat = Float(raio)!
+var pi = Float (3.14 )
+
+let area = pi * raioFloat * raioFloat
+print(area)
