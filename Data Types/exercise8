@@ -1,0 +1,11 @@
+/*
+crie um array com N valores (N > 5)
+•  recorrendo a um loop mostre todas as variáveis 
+do array
+
+*/
+var numbers = [1,8,9,4,5]
+
+for i in numbers {
+  print(i)
+}
