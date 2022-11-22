@@ -1,0 +1,6 @@
+/*crie uma função que faça o print de “ola mundo*/
+func stringB(){
+  print("ola mundo")
+}
+
+stringB()
