@@ -1,0 +1,10 @@
+/*
+Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit.
+
+*/
+
+print("Digit um numero: ")
+var celsius = readLine()!
+var celsiusInt = Int(celsius)!
+let fahrenheit = (celsiusInt * 9/5) + 32
+print(fahrenheit )
