@@ -1,0 +1,10 @@
+/*
+Faça um Programa que calcule a ´area de um quadrado, em seguida mostre o dobro do valor da ´area 
+no ecrã.
+*/
+
+
+var tamanho = 5
+var area = Int(tamanho * tamanho)
+let doubleArea = area * 2
+print(doubleArea)
