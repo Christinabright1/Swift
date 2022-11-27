@@ -1,0 +1,18 @@
+/*
+Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso 
+ideal, utilizando as seguintes formulas:
+•    Para homens:(72.7 ∗ h) − 58
+•    Para mulheres: (62.1 ∗ h) − 44.7
+*/
+
+print("Digite altura de homem:")
+var alturaHomem = readLine()!
+var alturaHomem_double = Double(alturaHomem )!
+let peso_homem = (72.7 * alturaHomem_double) - 58
+print(peso_homem)
+
+print("Digite altura de mulher:")
+var alturaMulher = readLine()!
+var alturaMulher_double = Double(alturaMulher )!
+let peso_Mulher = (72.7 * alturaMulher_double) - 58
+print(peso_Mulher)
