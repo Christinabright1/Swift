@@ -1,0 +1,22 @@
+/*
+ Joao e Pescador, homem de bem, comprou um computador para controlar o rendimento diario de seu 
+trabalho. sempre que pesca mais que o autorizado (50 quilos) tem pagar uma multa de 4,00€ por 
+quilo excedente. O Joao precisa de um programa que leia o peso de peixes pescado e calcule o excesso. 
+Sabendo esse valor deve calcular o valor da multa. O programa deve mostrar no ecra:
+•    o total de peixe pescado
+•    o peixe em excesso
+•    valor da multa
+pesca > 50 
+
+*/
+print("Digite o total de pescado: ")
+var total_peixe = readLine()!
+var total_peixeInt = Int(total_peixe)!
+if (total_peixeInt > 50){
+  let peixe_excesso = total_peixeInt - 50
+  print("Valor do pexixe excesso \(peixe_excesso)")
+  let valor_multa = 4 *  peixe_excesso
+  print("Valor da multa \(valor_multa)")
+}else{
+  print(total_peixeInt)
+}
