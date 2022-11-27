@@ -1,0 +1,9 @@
+/*
+Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso 
+ideal, usando a seguinte formula:(72.7 ∗ altura) − 58
+*/
+print("Digite um numero: ")
+var altura = readLine()!
+var floatAltura = Double(altura)!
+let pesoIdeal = Double(72.7 * floatAltura) - 58
+print(pesoIdeal)
