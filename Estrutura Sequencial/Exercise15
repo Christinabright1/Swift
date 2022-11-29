@@ -1,0 +1,22 @@
+/*
+Faça um programa para uma loja de tintas. O programa devera pedir o tamanho em metros quadrados 
+da area a ser pintada. Considere que a cobertura da tinta e de 1 litro para cada 3 metros quadrados 
+e que a tinta e vendida em latas de 18 litros, que custam 80,00€. Informe o utilizador da quantidades 
+de latas de tinta a serem compradas e o preço total.
+
+tamanho em metros quadrados 
+ cobertura da tinta e de 1 litro para cada 3 metros quadrados
+tinta e vendida em latas de 18 litros, que custam 80,00€
+Informe o utilizador da quantidades 
+de latas de tinta a serem compradas e o preço total.
+00
+*/
+print("Digite tamanho: ")
+var tamanho = readLine()!
+var tamanhoInt = Float(tamanho)!
+var total_litro = (1 * tamanhoInt)/3
+print(total_litro)
+var quantidade_latas = (1 * total_litro)/18
+print("O quantidade de latas \(quantidade_latas)")
+var preço_total = quantidade_latas * 80
+print("O preço total e \(preço_total)")
