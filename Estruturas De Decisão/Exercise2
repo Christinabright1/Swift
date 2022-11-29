@@ -1,0 +1,10 @@
+/*
+Faça um Programa que peça ao utilizador um numero. Indique se esse numero e positivo ou negativo
+*/
+print("Digite um numero:")
+var num = readLine()!
+var numInt = Int(num)!
+if(numInt > 0){
+  print("O numero \(numInt) e positivo") 
+}else{
+  print("O numero \(numInt) e negativo")
