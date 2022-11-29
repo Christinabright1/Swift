@@ -1,0 +1,15 @@
+/*
+Faça um Programa que peça ao utilizador dois numeros. Mostre o maior
+*/
+print("Digite o primeiro numero:")
+var num1 = readLine()!
+var num1Int = Int(num1)!
+
+print("Digite o segundo numero:")
+var num2 = readLine()!
+var num2Int = Int(num2)!
+if(num1Int > num2Int){
+ print("\(num1Int) e maior")
+}else{
+ print("\(num2Int) e menor") 
+}
