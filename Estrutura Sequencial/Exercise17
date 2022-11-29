@@ -1,0 +1,13 @@
+/*
+Faça um programa que peça o tamanho de um arquivo para download (em MB ) e a velocidade de 
+um link de Internet (em Mbps - Mega Bit por segundo), calcule e informe o tempo aproximado de 
+download do arquivo usando este link (em minutos).
+*/
+print("Digite o tamanho: ")
+var tamanhoem_MB = readLine()!
+var tamanhoem_MB_int = Int(tamanhoem_MB )!
+print("Digite a velocidade: ")
+var velocidade = readLine()!
+var velocidade_Int = Int(velocidade)!
+let tempo_download = (tamanhoem_MB_int * 60)/velocidade_Int
+print(tempo_download)
