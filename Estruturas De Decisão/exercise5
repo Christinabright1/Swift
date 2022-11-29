@@ -1,0 +1,10 @@
+/*
+ Faça um programa que permita ao João calcular o seu ordenado, sabendo que o João ganhar 15 euros 
+por cada hora trabalhar
+*/
+print("Digite hora:")
+var hora = readLine()!
+var hora_Int = Int(hora)!
+
+let ordenado = hora_Int * 15 
+print(ordenado)
