@@ -1,0 +1,14 @@
+/*
+Faça um Programa que verifique se uma letra digitada ´e ”F”ou ”M”. Conforme a letra escrever: F - 
+Feminino, M - Masculino, Sexo Invalido.
+*/
+print("Digite um numero: ")
+var letra = readLine()!
+var letra_maiúsculo = letra.uppercased()
+if(letra_maiúsculo == "F"){
+  print("Feminino")
+}else if(letra_maiúsculo == "M"){
+  print("Masculino")
+}else{
+  print("Sexo Invalido")
+}
