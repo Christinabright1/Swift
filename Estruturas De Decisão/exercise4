@@ -1,0 +1,14 @@
+/*
+Faça um Programa que verifique se uma letra digitada ´e vogal ou consoante.
+*/
+
+print("Digite uma letra: ")
+var letra = readLine()!
+var arr = ["a", "e", "i", "o", "u","A","E","I","O","U"]
+for i in arr {
+  if (letra == i){
+    print("\(letra) e vogal .")
+  }else{
+    print("\(letra) e consoante.")
+  }
+}
