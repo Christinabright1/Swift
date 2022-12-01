@@ -1,0 +1,17 @@
+/*
+Crie uma array com todos os números impares de 0 a 100 e some posição a posição com 
+array criado no ex 1
+
+*/
+var arr:[Int] = []
+var soma = 0
+for i in 0...100{
+  if (i % 2 != 0 && i > 0){
+    arr.append(i)
+    soma += i
+  }
+}
+print(arr)
+/*Soma*/
+print(soma)
+
