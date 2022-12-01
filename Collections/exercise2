@@ -1,0 +1,15 @@
+/*Crie uma array com todos os números pares de 0 a 100
+*/
+var arr:[Int]  = []
+var sum = 0
+for i in 0...100{
+  if (i % 2 == 0 && i > 0){
+    arr.append(i)
+    sum += i
+  }
+}
+print(arr)
+/*Some todos os elementos do array criado no ex 1
+*/
+print("\(sum) e soma do array")
+
