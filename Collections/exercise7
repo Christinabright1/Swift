@@ -1,0 +1,15 @@
+
+/*
+Crie 2 sets com ingredientes de 2 receitas
+
+7.1.  Mostre os valores em comum aos dois
+
+7.2.  Mostre os valores em diferentes do 1 em relação aos 2
+
+*/
+var ingredient1 : Set<String> = ["milk","egg","flour","sugar"]
+
+var ingredient2 : Set<String> = ["Sugar","flour","spices","vanilla"]
+
+print("Union of ingredient1 and ingredient2 \(ingredient1.union(ingredient2))")
+print(ingredient1.subtracting(ingredient2))
