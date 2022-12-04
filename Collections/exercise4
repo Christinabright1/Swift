@@ -1,0 +1,26 @@
+Crie um array com N números random e ordene-os 
+
+
+
+function swap(arr,index1,index2){
+  let temp = arr[index1];
+  arr[index1] = arr[index2];
+  arr[index2] = temp;
+ return arr;
+}
+console.log(swap([12,15,2,-9,20,32],0,1));
+
+//compare the first two value , if the first value is greater than the second swap them 
+//then move to the next value 
+function bubbleSort(arr){
+  for(var i=0; i < arr.length; i++){
+    for(var j=0; j < arr.length-i-1; j++){
+      console.log(j)
+      if(arr[j] > arr[j+1]){
+        swap(arr, j,j+1)
+      }
+    }
+  }
+  return arr
+}
+console.log(bubbleSort([12,15,2,-9,20,32]))
