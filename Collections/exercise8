@@ -1,0 +1,24 @@
+/*
+Crie um dicionário <número, nota> e adicione 10 alunos, 
+
+8.1.mostre os alunos com mais que x valores
+
+8.2.liste todos os alunos
+
+8.3.liste todas as notas 
+23
+*/
+var alunos = [121: 19,324: 14,452: 11, 987: 14, 675: 13,789: 16, 543: 17,476: 10,910: 15, 623: 19]
+//8.1.mostre os alunos com mais que 15 valores
+let aluno_notas_maior = alunos.filter { $0.value > 15 }
+print(aluno_notas_maior)
+
+let keys_alunos = [Int](alunos.keys)
+for (key) in keys_alunos {
+  print("Os alunos são \(key)")
+}
+
+let values_aluno = [Int](alunos.values)
+for (value) in values_aluno {
+  print("As notas são \(value)")
+}
