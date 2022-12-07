@@ -1,0 +1,18 @@
+/*
+Crie um script em swift que:
+• receba 2 números
+• some todos os pares entre esses 2 valores
+*/
+
+func sum(num1: Int, num2: Int){
+  var sum = 0
+  for i in num1...num2 {
+    print(i)
+    if i%2 == 0{
+      sum += i
+      print("os valores pares \(i)")
+    }
+  }
+  print(sum)
+}
+sum(num1: 3, num2: 10)
