@@ -1,0 +1,14 @@
+/*
+Calcular a sequência e de Fibonacci ate um dado valor. F = (n-1)+(n-2) 
+*/  
+
+func fibonacci (num: Int) -> Int{
+  var fib = 0
+  if (num == 0){
+    return 0
+  }else if(num > 0){
+    fib = (num - 1) + (num - 2)
+  }
+  return fib
+}
+print(fibonacci(num: 4))
