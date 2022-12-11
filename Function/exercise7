@@ -1,0 +1,15 @@
+/*
+ Crie um script em swift que:
+• receba 2 números
+• some todos os multiplos de 2 e 5 entre os 2 números 
+*/
+func multiplo(num1: Int, num2: Int) -> Int{
+  var sum = 0
+  for i in num1...num2 {
+    if i % 2 == 0 && i % 5 == 0{
+      sum += i
+    }
+  }
+  return sum
+}
+print(multiplo(num1: 10, num2: 20))
