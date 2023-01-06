@@ -1,0 +1,30 @@
+import UIKit
+
+class Developer {
+    var name: String?
+    var jobTittle: String
+    var yearExp: Int
+    
+    init(name: String, jobTittle: String, yearExp: Int){
+        self.name = name
+        self.jobTittle = jobTittle
+        self.yearExp = yearExp
+    }
+    func introduceYourself(){
+        print("My name is \(name), i am \(jobTittle) with \(yearExp)")
+    }
+}
+
+//sub class
+class IOSdeveloper: Developer {
+    var favoriteFramework: String?
+    
+    func speakFavoriteFramework(){
+        print(favoriteFramework ?? "I do not have a framework")
+    }
+}
+let sean = IOSdeveloper(name: "sean", jobTittle: "Developer", yearExp: 5)
+
+sean.favoriteFramework = "Arkit"
+print(sean.favoriteFramework)
+print(sean.speakFavoriteFramework())
