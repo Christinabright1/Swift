@@ -1,0 +1,13 @@
+// define a structure
+struct Person {
+    var name = " "
+    var age = 0
+}
+//Create instance of Person
+var person1 = Person()
+print(person1)
+// access properties and assign new values
+person1.name = "Smith"
+person1.age = 26
+print("My name is \(person1.name) and i am (person1.age)")
+
