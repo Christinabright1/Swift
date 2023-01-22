@@ -1,0 +1,32 @@
+import UIKit
+
+class Quadrado {
+    var lado: Float?
+    var area: Float {
+        set {
+            self.lado = sqrtf(newValue)
+        }
+        
+        get {
+            return pow(self.lado! , 2)
+        }
+        
+        
+    }
+    
+      var perimetro: Float {
+        set {
+            self.lado = newValue/4
+        }
+        get {
+            return self.lado! * 4
+        }
+    }
+}
+let area1 = Quadrado()
+area1.lado = 10.5
+//Set is invoked
+print(area1.area)
+//Get is invoked
+area1.area = 200.1
+print(area1.lado)
