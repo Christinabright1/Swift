@@ -1,0 +1,14 @@
+//Function in struct
+struct Car {
+    var gear = 0
+    
+    //method inside struct
+    func applyBrake(){
+        print("Applying Hydrolic Brake")
+    }
+}
+//create an instance
+var car1 = Car()
+car1.gear = 5
+print("The number of gear is \(car1.gear)")
+print(car1.applyBrake())
