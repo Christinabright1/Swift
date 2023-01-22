@@ -1,0 +1,9 @@
+Variáveis so de leitura
+var estado : String {
+      get {
+          if media >= 9.5 {
+              return "Aprovado com media de \(self.media)"
+          }else{
+              return "não aprovado com media de \(self.media)"
+} }
+}
