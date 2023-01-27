@@ -1,0 +1,11 @@
+//Write a function called recursiveRange which accepts a number and adds up all the numbers from 0 to the number passed to the function 
+func recursiveRange(n: Int) -> Int{
+  var sum: Int = 0
+  if n <= 1 {
+    return n
+  }else{
+    sum = recursiveRange(n: n - 1 ) + n
+  }
+  return sum
+}
+print(recursiveRange(n: 6))
