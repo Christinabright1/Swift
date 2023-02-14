@@ -1,0 +1,14 @@
+In Swift, we use the guard statement to transfer program control out of scope when certain conditions are not met.
+
+The guard statement is similar to the if statement with one major difference. The if statement runs when a certain condition is met. 
+However, the guard statement runs when a certain condition is not met.
+
+Syntax of guard Statement
+
+The syntax of the guard statement is:
+
+guard expression else {
+  // statements
+  // control statement: return, break, continue or throw.
+}
+
