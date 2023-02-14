@@ -1,0 +1,21 @@
+# Swift
+
+
+for i in 1...10 {
+  print(i)
+}
+
+// access items of an array 
+let languages = ["Swift", "Java", "Go", "JavaScript"]
+
+for language in languages {
+      print(language)
+}
+
+//for Loop with where Clause
+
+// remove Java from an array
+
+for language in languages where language != "Java"{
+  print(language) 
+}
