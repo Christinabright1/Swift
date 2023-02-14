@@ -1,0 +1,10 @@
+var currentLevel:Int = 0, finalLevel:Int = 5
+let gameCompleted = true
+while (currentLevel <= finalLevel) {
+
+  if gameCompleted {
+    print("You have passed level \(currentLevel)")
+      currentLevel += 1
+  }
+}
+print("Level Ends")
