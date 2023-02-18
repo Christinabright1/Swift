@@ -1,0 +1,39 @@
+//Create empty dictionary
+var namesOfIntergers: [Int: String] = [:]
+
+namesOfIntergers[16] = "sixteen"
+
+//Creating a Dictionary with a Dictionary Literal
+var airports: [String: String] = ["YYZ": "Toronto Pearson", "DUB": "Dublin"]
+
+print("The airport dictionnary contains \(airports.count) items")
+
+if(airports.isEmpty){
+  print("The airport dictionary is Empty")
+} else {
+  print("The airport dictionary is not Empty")
+}
+//Add item to dictionary
+airports["LHR"] = "London"
+airports["LHR"] = "London Heathrow"
+print(airports)
+// remove a key-value pair from a dictionary by assigning a value of nil for that key:
+airports["YYZ"] = nil
+print(airports)
+
+//remove a key-value pair from a dictionary with the removeValue(forKey:) method.
+if let removeValue = airports.removeValue(forKey: "DUB"){
+  print("The removed airport's name is \(removeValue)")
+} else {
+    print("The airports dictionary doesn't contain a value for DUB.")
+}
+//Iterating Over a Dictionary
+for(airportKey, airportValue) in airports {
+  print("Airport key \(airportKey): \(airportValue)")
+}
+for airportKey in airports.keys {
+  print("Airportkey \(airportKey)")
+}
+for airportValue in airports.value {
+  print("Airportvalue \(airportValue)")
+}
