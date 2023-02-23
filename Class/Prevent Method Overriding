@@ -1,0 +1,24 @@
+In Swift, we can prevent the method from overriding.
+
+To make a method non-overridable, we use the final keyword while declaring a method in the superclass. 
+
+
+//prevent override
+
+class Vehicule {
+  //final to prevent override
+    final func displayInfo(){
+    print("Four wheels or 2 wheels")
+  }
+}
+
+// Car heritance vehicule
+
+class Car : Vehicule {
+  override func displayInfo() {
+    print("4 wheels")
+  }
+}
+
+var car1 = Car()
+print(car1.displayInfo())
