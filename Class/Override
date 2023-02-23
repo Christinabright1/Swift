@@ -1,3 +1,9 @@
+•
+Forma de uma sub class alterar a funcionalidade de instance methods, class methods, instance propertys, class propertys e sub-scripts
+Overriding
+Em Swift é necessário indicar de forma explicita que um
+•
+método re-escreve um método da super class
 
 //Override
  class Dog {
