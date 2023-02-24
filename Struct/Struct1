@@ -1,0 +1,15 @@
+A struct makes it possible to create a custom data type in your code.
+
+//create struct
+
+struct Person {
+  var name = "Ana"
+  var age = 17
+  var hobby = "Golf"
+}
+
+//Create object of that person 
+var person = Person()
+
+print(person.name)
+
