@@ -1,0 +1,20 @@
+protocol Greet {
+  //blueprint of property
+  var name: String { get }
+
+  //blueprint of method
+  func message()
+  
+}
+
+class Employee: Greet {
+  var name = "Perry "
+
+  func message(){
+    print("Good morning")
+  }
+}
+
+var employee1 = Employee()
+print(employee1.name)
+print(employee1.message())
