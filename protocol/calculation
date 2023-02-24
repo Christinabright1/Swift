@@ -1,0 +1,28 @@
+protocol Sum {
+  func sum()
+}
+
+protocol Multiply {
+  func multiply()
+}
+
+class Calculation: Sum , Multiply {
+  var num1 = 0
+  var num2 = 0
+
+  func sum(){
+    let result = num1 + num2
+    print(result)
+  }
+
+  func multiply() {
+    let multiplication = num1 * num2 
+    print(multiplication)
+}
+}
+
+var calc1 = Calculation()
+calc1.num1 = 10
+calc1.num2 = 6
+print(calc1.sum())
+print(calc1.multiply())
