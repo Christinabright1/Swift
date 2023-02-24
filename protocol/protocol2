@@ -1,0 +1,13 @@
+//protocol
+protocol Rectangle {
+  func getPerimeter (width: Int , height: Int)
+}
+
+class Perimeter: Rectangle {
+  func getPerimeter(width: Int, height: Int) {
+   print("Perimeter is ", width * height)
+}
+}
+
+var r1 = Perimeter()
+print(r1.getPerimeter(width: 10 , height: 5))
