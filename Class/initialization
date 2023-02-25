@@ -1,0 +1,19 @@
+class Carro {
+   var marca: String
+   var ano: Int
+
+  //initialize object
+  init(){
+    self.marca = ""
+    self.ano = 0
+    
+  }
+
+  init(nome: String, ano: Int){
+    self.marca = nome
+    self.ano = ano
+  }
+}
+
+var bmw = Carro(nome: "bmw", ano: 2000)
+print(bmw.nome)
